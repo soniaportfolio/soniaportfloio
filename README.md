@@ -14,6 +14,7 @@ margin:0;
 background:#f4f4f4;
 line-height:1.6;
 }
+  <img src="reviews/review1.png">
 
 header{
 background:#0f172a;
