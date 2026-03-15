@@ -3,96 +3,200 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sonia Hanif | Content Writer</title>
+
+<title>Sonia Hanif | Content Writer Portfolio</title>
 
 <style>
+
 body{
-font-family: Arial, sans-serif;
+font-family: Arial;
 margin:0;
 background:#f4f4f4;
+line-height:1.6;
 }
 
 header{
-background:#333;
+background:#0f172a;
 color:white;
-padding:20px;
 text-align:center;
+padding:40px;
 }
 
-section{
-padding:30px;
-margin:20px;
+nav{
+background:#1e293b;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-size:16px;
+}
+
+.container{
+width:90%;
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+.section{
 background:white;
+padding:25px;
+margin-bottom:20px;
 border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.05);
 }
 
-h2{
-color:#333;
+.section h2{
+color:#0f172a;
 }
 
-.skills li{
-margin:8px 0;
+.services li{
+margin-bottom:8px;
 }
 
-.footer{
+.samples a{
+color:#0ea5e9;
+text-decoration:none;
+}
+
+.review-images{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+margin-top:15px;
+}
+
+.review-images img{
+width:100%;
+border-radius:6px;
+box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+
+footer{
+background:#0f172a;
+color:white;
 text-align:center;
 padding:15px;
-background:#333;
-color:white;
 }
+
 </style>
+
 </head>
 
 <body>
 
 <header>
+
 <h1>Sonia Hanif</h1>
-<p>Professional Content Writer</p>
+
+<p>Professional Content Writer | SEO Blogs | Web Content</p>
+
 </header>
 
-<section>
+<nav>
+
+<a href="#about">About</a>
+
+<a href="#services">Services</a>
+
+<a href="#samples">Samples</a>
+
+<a href="#reviews">Client Reviews</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+<div class="container">
+
+<section id="about" class="section">
+
 <h2>About Me</h2>
+
 <p>
-I am a passionate content writer from Pakistan. I specialize in blog writing,
-SEO content, and eCommerce articles for international audiences.
-I focus on writing engaging and well-researched content.
+
+Hi! I'm Sonia Hanif, a professional content writer with 2 years of experience creating engaging, SEO-friendly content for blogs, websites, and digital platforms.
+
+I specialize in transforming ideas into clear, compelling, reader-friendly content that informs and drives results.
+
+My expertise includes keyword research, content strategy, editing, and proofreading to ensure high-quality content.
+
 </p>
+
 </section>
 
-<section>
-<h2>My Skills</h2>
-<ul class="skills">
-<li>SEO Blog Writing</li>
-<li>eCommerce Content</li>
-<li>Product Descriptions</li>
-<li>Article Writing</li>
-<li>Keyword Research</li>
+<section id="services" class="section services">
+
+<h2>Services We Offer</h2>
+
+<ul>
+
+<li>SEO Blog & Article Writing</li>
+
+<li>Website Content Creation</li>
+
+<li>Social Media Content</li>
+
+<li>Copywriting & Marketing Content</li>
+
 </ul>
+
 </section>
 
-<section>
+<section id="samples" class="section samples">
+
 <h2>Writing Samples</h2>
 
-<h3>Blog 1</h3>
-<p>Top eCommerce Trends in USA and UK for 2026</p>
+<p>Read my article on Medium:</p>
 
-<h3>Blog 2</h3>
-<p>How to Localize Your eCommerce Store for UK vs US Customers</p>
+<a href="https://medium.com/@soniahanifbrw/why-content-marketing-is-key-for-brand-growth-bf98bfb3d32f" target="_blank">
 
-<h3>Blog 3</h3>
-<p>Best Shopify Strategies to Increase Online Sales</p>
+Why Content Marketing is Key for Brand Growth
+
+</a>
 
 </section>
 
-<section>
-<h2>Contact</h2>
-<p>Email: soniahanifbrw@gmail.com</p>
-<p>Phone: +92 304 9201840</p>
-</section>
+<section id="reviews" class="section">
 
-<div class="footer">
-<p>© 2026 Sonia Hanif | Content Writing Portfolio</p>
+<h2>Client Reviews</h2>
+
+<p>Here are some client feedback screenshots:</p>
+
+<div class="review-images">
+
+<img src="reviews/review1.png">
+
+<img src="reviews/review2.png">
+
+<img src="reviews/review3.png">
+
 </div>
 
+</section>
+
+<section id="contact" class="section">
+
+<h2>Contact</h2>
+
+<p>Email: soniahanifbrw@gmail.com</p>
+
+<p>Available for freelance content writing work.</p>
+
+</section>
+
+</div>
+
+<footer>
+
+<p>© 2026 Sonia Hanif | Content Writing Portfolio</p>
+
+</footer>
+
 </body>
+
 </html>
