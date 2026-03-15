@@ -4,88 +4,93 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Sonia Hanif | Content Writer Portfolio</title>
+<title>Sonia Hanif | Content Writer</title>
 
 <style>
 
 body{
-font-family: Arial;
 margin:0;
-background:#f4f4f4;
-line-height:1.6;
+font-family:Arial;
+background:#f3f4f6;
 }
-  <img src="reviews/review1.png">
 
 header{
-background:#0f172a;
+background:linear-gradient(135deg,#2563eb,#1e3a8a);
 color:white;
 text-align:center;
-padding:40px;
+padding:60px 20px;
 }
 
-nav{
-background:#1e293b;
-text-align:center;
-padding:10px;
+header h1{
+font-size:42px;
+margin:0;
 }
 
-nav a{
-color:white;
-margin:10px;
-text-decoration:none;
-font-size:16px;
+header p{
+font-size:18px;
+margin-top:10px;
 }
 
 .container{
 width:90%;
 max-width:1000px;
 margin:auto;
-padding:20px;
+padding:40px 0;
 }
 
 .section{
 background:white;
-padding:25px;
-margin-bottom:20px;
-border-radius:8px;
-box-shadow:0 0 10px rgba(0,0,0,0.05);
+padding:30px;
+margin-bottom:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
 .section h2{
-color:#0f172a;
+margin-bottom:15px;
+color:#1e3a8a;
 }
 
-.services li{
-margin-bottom:8px;
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.card{
+background:#f9fafb;
+padding:20px;
+border-radius:8px;
+border-left:4px solid #2563eb;
 }
 
 .samples a{
-color:#0ea5e9;
+display:block;
+margin-bottom:10px;
+color:#2563eb;
 text-decoration:none;
 }
 
-.review-images{
+.reviews{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:15px;
-margin-top:15px;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 }
 
-.review-images img{
+.reviews img{
 width:100%;
-border-radius:6px;
-box-shadow:0 0 8px rgba(0,0,0,0.2);
+border-radius:8px;
+box-shadow:0 3px 10px rgba(0,0,0,0.2);
 }
 
 footer{
-background:#0f172a;
+background:#111827;
 color:white;
 text-align:center;
-padding:15px;
+padding:20px;
 }
 
 </style>
-
 </head>
 
 <body>
@@ -98,77 +103,64 @@ padding:15px;
 
 </header>
 
-<nav>
-
-<a href="#about">About</a>
-
-<a href="#services">Services</a>
-
-<a href="#samples">Samples</a>
-
-<a href="#reviews">Client Reviews</a>
-
-<a href="#contact">Contact</a>
-
-</nav>
-
 <div class="container">
 
-<section id="about" class="section">
+<section class="section">
 
 <h2>About Me</h2>
 
 <p>
-
-Hi! I'm Sonia Hanif, a professional content writer with 2 years of experience creating engaging, SEO-friendly content for blogs, websites, and digital platforms.
-
-I specialize in transforming ideas into clear, compelling, reader-friendly content that informs and drives results.
-
-My expertise includes keyword research, content strategy, editing, and proofreading to ensure high-quality content.
-
+Hi! I'm Sonia Hanif, a professional content writer with 2 years of experience creating SEO-friendly blog posts, web content, and digital marketing content.  
+I focus on writing engaging, research-based content that helps businesses grow online.
 </p>
 
 </section>
 
-<section id="services" class="section services">
+<section class="section">
 
-<h2>Services We Offer</h2>
+<h2>Services</h2>
 
-<ul>
+<div class="services">
 
-<li>SEO Blog & Article Writing</li>
+<div class="card">
+<h3>SEO Blog Writing</h3>
+<p>Keyword optimized articles for websites and blogs.</p>
+</div>
 
-<li>Website Content Creation</li>
+<div class="card">
+<h3>Website Content</h3>
+<p>Homepage, About page and business website content.</p>
+</div>
 
-<li>Social Media Content</li>
+<div class="card">
+<h3>Copywriting</h3>
+<p>Marketing content for ads, emails and promotions.</p>
+</div>
 
-<li>Copywriting & Marketing Content</li>
+<div class="card">
+<h3>Social Media Content</h3>
+<p>Creative posts and captions for social media.</p>
+</div>
 
-</ul>
+</div>
 
 </section>
 
-<section id="samples" class="section samples">
+<section class="section samples">
 
 <h2>Writing Samples</h2>
 
-<p>Read my article on Medium:</p>
-
 <a href="https://medium.com/@soniahanifbrw/why-content-marketing-is-key-for-brand-growth-bf98bfb3d32f" target="_blank">
-
 Why Content Marketing is Key for Brand Growth
-
 </a>
 
 </section>
 
-<section id="reviews" class="section">
+<section class="section">
 
 <h2>Client Reviews</h2>
 
-<p>Here are some client feedback screenshots:</p>
-
-<div class="review-images">
+<div class="reviews">
 
 <img src="reviews/review1.png">
 
@@ -180,13 +172,13 @@ Why Content Marketing is Key for Brand Growth
 
 </section>
 
-<section id="contact" class="section">
+<section class="section">
 
 <h2>Contact</h2>
 
 <p>Email: soniahanifbrw@gmail.com</p>
 
-<p>Available for freelance content writing work.</p>
+<p>Available for freelance content writing projects.</p>
 
 </section>
 
@@ -194,10 +186,9 @@ Why Content Marketing is Key for Brand Growth
 
 <footer>
 
-<p>© 2026 Sonia Hanif | Content Writing Portfolio</p>
+<p>© 2026 Sonia Hanif | Content Writer</p>
 
 </footer>
 
 </body>
-
 </html>
